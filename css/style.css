@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body{
+    background-color: #d4cbb0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.box-padre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-padre>img{
+    margin: 20px 0px 0px 0px;
+}
+
+.box-padre>p{
+    text-align: center;
+    font-size: 13px;
+    padding: 10px 0px 30px 0px;
+}
+
+/* Edicion de las 6 imagenes */
+
+.box-img{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    flex-wrap: wrap;
+}
+
+
+
+.box-1>figure{
+    margin: 10px;
+    padding: 8px;
+    background-color: #e9e2d0;
+}
+
+.box-2>figure{
+    margin: 10px;
+    padding: 8px;
+    background-color: #e9e2d0;
+}
+
+.box-3>figure{
+    margin: 10px;
+    padding: 8px;
+    background-color: #e9e2d0;
+}
+
+.box-4>figure{
+    margin: 10px;
+    padding: 8px;
+    background-color: #e9e2d0;
+}
+
+.box-5>figure{
+    margin: 10px;
+    padding: 8px;
+    background-color: #e9e2d0;
+}
+
+.box-6>figure{
+    margin: 10px;
+    padding: 8px;
+    background-color: #e9e2d0;
+}
+
+
+
+.box-1>figure>.imagen{
+    border: 1px solid #b9aeae;
+}
+
+.box-2>figure>.imagen{
+    border: 1px solid #b9aeae;
+}
+
+.box-3>figure>.imagen{
+    border: 1px solid #b9aeae;
+}
+
+.box-4>figure>.imagen{
+    border: 1px solid #b9aeae;
+}
+
+.box-5>figure>.imagen{
+    border: 1px solid #b9aeae;
+}
+
+.box-6>figure>.imagen{
+    border: 1px solid #b9aeae;
+}
